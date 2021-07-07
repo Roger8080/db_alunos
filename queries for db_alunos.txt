@@ -49,17 +49,17 @@ CREATE TABLE alunos_cursos(
 
 /* POVOANDO TODAS AS TABELAS */
 INSERT INTO alunos (id_aluno,nome,data_nascimento,endereco,cidade,estado,cpf)
-	VALUES ('default', 'Roger Felix','1993-08-27','R Antonio Quintiliano 99','Sao Paulo','SP','41526374859'),
-	       ('default', 'Felipe Santos','1993-08-27','R Alberto Lonhoff 460','Rio de Janeiro','RJ','41526374858'),
+	VALUES ('default', 'Roger Felix','1993-08-27','R Antonio Schimit 99','Sao Paulo','SP','41526374859'),
+	       ('default', 'Felipe Santos','1993-08-27','R Alberto 460','Rio de Janeiro','RJ','41526374858'),
 	       ('default', 'Maria Aparecida','1993-08-27','R Osasco 12','Osasco','SP','41526374857'),
-               ('default', 'Jose Fagundes','1993-08-27','R Bahia 44','Salvador','BA','41526374856'),
+               ('default', 'Jose Fagundes','1993-08-27','R Bahia 45','Salvador','BA','41526374856'),
                ('default', 'Marcio Franco','1993-08-27','R Horizonte 21','Belo Horizonte','MG','41526374855'),
-               ('default', 'Lazaro Barbosa','1993-08-27','R Lagos 15','Alagoas','AL','41526374854'),
+               ('default', 'Francisco Barbosa','1993-08-27','R Lagos 15','Alagoas','AL','41526374854'),
                ('default', 'Stive Flakes','1993-08-27','R Parana 100','Paraná','PR','41526374853'),
                ('default', 'Marcos Antonio','1993-08-27','R riacho grande 10','Rio Grande do Sul','RS','41526374852'),
-               ('default', 'Billy Harry','1993-08-27','R indio patachó 160','Amazonas','AM','41526374851'),
+               ('default', 'Billy Harry','1993-08-27','R beira rio 160','Amazonas','AM','41526374851'),
                ('default', 'Mariano Floriano','1993-08-27','R Acre 89','Acre','AC','41526374850'),
-               ('default', 'Renan Monteiro','1993-08-27','Av Corruptos 100','Distrito Federal','DF','41526374800');
+               ('default', 'Renan Monteiro','1993-08-27','Av Brasil 100','Distrito Federal','DF','41526374800');
 
 			   
 INSERT INTO cursos(id_curso, nome)
